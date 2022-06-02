@@ -28,9 +28,12 @@ public static void Main()
     // Collection coll = new();
     // coll.LearnArrays();
 
-    Basic b = new();
-    b.LearnLoops();
+    // Basic b = new();
+    // b.LearnLoops();
     
+    Methods m = new();
+    m.Print();
+    m.PrintName("Bidhi");
 
 }
 }
