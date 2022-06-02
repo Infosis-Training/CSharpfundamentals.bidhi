@@ -1,6 +1,7 @@
 ﻿
 // using System;
 // using OOP;
+using System;
 using System.Collections.ObjectModel;
 using Collect;
 
@@ -34,7 +35,8 @@ public static void Main()
     Methods m = new();
     m.Print();
     m.PrintName("Bidhi");
-    m.Print("Bidhi",20);
+    string x = m.Print("Bidhi",20);
+    Console.WriteLine(x);
 
 }
 }
