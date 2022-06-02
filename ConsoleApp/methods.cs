@@ -15,5 +15,12 @@ class Methods
     {
         Console.WriteLine("Hello there!" + name);
     }
+
+    // one return type, multiple arguments
+    public string Print(string name, byte age)
+    {
+        string detail = $"I am {name}.\n I am {age} years old";
+        return detail;
+    }
 }
 

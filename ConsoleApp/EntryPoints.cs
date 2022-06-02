@@ -34,6 +34,7 @@ public static void Main()
     Methods m = new();
     m.Print();
     m.PrintName("Bidhi");
+    m.Print("Bidhi",20);
 
 }
 }
