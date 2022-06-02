@@ -22,5 +22,9 @@ class Methods
         string detail = $"I am {name}. I am {age} years old";
         return detail;
     }
+     public string Greet(string name, string salutation = "Mr.")
+    {
+        return $"Hello, {salutation} {name}";
+    }
 }
 
